@@ -3,7 +3,9 @@ This IOS app fetch and store GitHub commits of Swift repository with the power o
 
 ## Screenshots
 Soon ...
-[comment]: <> ( [![](http://www.novinfard.com/media/gitshots/PI11-SightSeeing-1.jpg)](http://www.novinfard.com/media/gitshots/PI11-SightSeeing-1.jpg) )
+<!--
+[![](http://www.novinfard.com/media/gitshots/PI11-SightSeeing-1.jpg)](http://www.novinfard.com/media/gitshots/PI11-SightSeeing-1.jpg)
+-->
 
 ## Main Targets
 CoreData
