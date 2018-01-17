@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD0F7105200A7DFE000B2BCD /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0F7104200A7DFE000B2BCD /* DetailViewController.swift */; };
+		CD0F7108200A8229000B2BCD /* GithubCommits.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CD0F7106200A8229000B2BCD /* GithubCommits.xcdatamodeld */; };
 		CDA15B05200970AA007E6C32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA15B04200970AA007E6C32 /* AppDelegate.swift */; };
 		CDA15B07200970AA007E6C32 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA15B06200970AA007E6C32 /* ViewController.swift */; };
 		CDA15B0A200970AA007E6C32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDA15B08200970AA007E6C32 /* Main.storyboard */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CD0F7104200A7DFE000B2BCD /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		CD0F7107200A8229000B2BCD /* GithubCommits.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GithubCommits.xcdatamodel; sourceTree = "<group>"; };
 		CDA15B01200970A9007E6C32 /* GithubCommits.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GithubCommits.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDA15B04200970AA007E6C32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CDA15B06200970AA007E6C32 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,7 +62,9 @@
 			children = (
 				CDA15B04200970AA007E6C32 /* AppDelegate.swift */,
 				CDA15B06200970AA007E6C32 /* ViewController.swift */,
+				CD0F7104200A7DFE000B2BCD /* DetailViewController.swift */,
 				CDA15B08200970AA007E6C32 /* Main.storyboard */,
+				CD0F7106200A8229000B2BCD /* GithubCommits.xcdatamodeld */,
 				CDA15B16200970C4007E6C32 /* SwiftyJSON.swift */,
 				CDA15B0B200970AA007E6C32 /* Assets.xcassets */,
 				CDA15B0D200970AA007E6C32 /* LaunchScreen.storyboard */,
@@ -142,6 +148,8 @@
 				CDA15B17200970C4007E6C32 /* SwiftyJSON.swift in Sources */,
 				CDA15B07200970AA007E6C32 /* ViewController.swift in Sources */,
 				CDA15B05200970AA007E6C32 /* AppDelegate.swift in Sources */,
+				CD0F7105200A7DFE000B2BCD /* DetailViewController.swift in Sources */,
+				CD0F7108200A8229000B2BCD /* GithubCommits.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,6 +334,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CD0F7106200A8229000B2BCD /* GithubCommits.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CD0F7107200A8229000B2BCD /* GithubCommits.xcdatamodel */,
+			);
+			currentVersion = CD0F7107200A8229000B2BCD /* GithubCommits.xcdatamodel */;
+			path = GithubCommits.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = CDA15AF9200970A9007E6C32 /* Project object */;
 }
