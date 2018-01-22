@@ -8,7 +8,7 @@ This IOS app fetch and store GitHub commits of Swift repository with the power o
 
 
 ## Main Targets
-CoreData, NSPredicate, UITableViewController, NSSortDescriptor, NSManagedObjectContext, lazyLoading, relationships, indexes
+CoreData, NSFetchedResultsController, NSPredicate, UITableViewController, NSSortDescriptor, NSManagedObjectContext, lazyLoading, relationships, indexes
  
 
 ## Credits
