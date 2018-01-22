@@ -8,7 +8,7 @@ Soon ...
 -->
 
 ## Main Targets
-CoreData
+CoreData, NSPredicate
 
 ## Credits
 The concept of this app is adapted from Hacking with Swift book written by Paul Hudson.
